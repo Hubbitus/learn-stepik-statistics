@@ -1,0 +1,12 @@
+version: '3.7'
+
+# https://beakerx.com/
+# docker run -p 8888:8888 beakerx/beakerx
+# https://hub.docker.com/r/beakerx/beakerx/
+services:
+  beakerx:
+    image: beakerx/beakerx:1.3.0
+    ports:
+      - "7777:8888"
+    # See my bugreport: https://github.com/twosigma/beakerx/issues/7959
+    command: bash -c "start-notebook.sh --ip=$$HOSTNAME"
