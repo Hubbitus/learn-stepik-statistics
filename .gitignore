@@ -5,3 +5,4 @@
 .~lock.*
 /gdrive.mount.log/
 /python-notebook/machine-learning.coursera
+logs/
