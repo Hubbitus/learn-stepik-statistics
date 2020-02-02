@@ -1,7 +1,6 @@
 version: '3.7'
 
 # https://beakerx.com/
-# docker run -p 8888:8888 beakerx/beakerx
 # https://hub.docker.com/r/beakerx/beakerx/
 services:
   beakerx:
