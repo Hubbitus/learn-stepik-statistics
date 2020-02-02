@@ -11,3 +11,5 @@ services:
       - ./notebooks:/home/beakerx/@NOTEBOOKS
     # See my bugreport: https://github.com/twosigma/beakerx/issues/7959
     command: bash -c "start-notebook.sh --ip=$$HOSTNAME"
+    container_name: stepik-statistics-beakerx
+
