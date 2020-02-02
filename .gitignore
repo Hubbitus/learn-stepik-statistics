@@ -1,8 +1,3 @@
 
-# They are binary and stored in google drive: https://drive.google.com/drive/u/1/folders/1-yLIHLG5GkBAmjVcM4LqVikVoGUrFegR?ths=true
-/Docs/
 .ipynb_checkpoints/
 .~lock.*
-/gdrive.mount.log/
-/python-notebook/machine-learning.coursera
-logs/
